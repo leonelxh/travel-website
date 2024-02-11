@@ -1,0 +1,306 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+.background-image{
+    background-image:url(https://www.kultplus.com/wp-content/uploads/2020/08/TR_NAT_Bovilla-FOTO-GRANIT-TEMAJ-728x430.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%; /* Set the width of your div */
+    height: 1200px; /* Set the height of your div */
+
+}
+  nav {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 120px;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+}
+nav:hover{
+background-color: rgb(255, 255, 255);
+}
+
+nav a {
+    float: left;
+    color: rgb(181, 119, 88);
+    text-decoration: none;
+    margin-top: 35px;
+    font-size: 20px;
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: rgb(250, 250, 250);
+}
+
+.navbar-logo {
+    float: left;
+    display: block;
+    padding: 15px 20px;
+    margin-top:10px;
+   
+}
+
+.navbar-brand {
+    float: left;
+    color: rgb(108, 75, 59);
+    font-size: 40px;
+    padding: 15px 20px;
+    margin-top:30px ;
+}
+
+.navbar-right {
+    float: right;
+}
+
+.navbar-right a {
+padding: 30px;}
+h2{
+    text-align: center;
+    margin-top: 85px;
+    color: rgb(181, 130, 64);
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 1.7cm;
+    color:  rgb(108, 75, 59);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+p{
+    text-align: center;
+    color: rgb(253, 203, 137);
+}
+.button{
+    background-color: white;
+    border: none;
+   font-size: 40px;
+   border-radius: 40px;
+   margin-left: 42%;
+   width: 180px;
+   margin-top: 30px;
+   background-color: antiquewhite;
+   height:max-content;
+
+}
+.button span{
+    font-size: 15px;
+    vertical-align: middle;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 15px;
+    
+}
+.button:hover{
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    border: solid rgb(255, 255, 255);
+    transition: 0.3s;
+}
+.p1{
+    font-size: 40px;
+    margin-top:450px;
+color: black;
+}
+.p2{
+margin-top: 15px;
+}
+p{
+    padding: 0;
+    margin: 0;
+    color: rgb(108, 75, 59);
+}
+.nature{
+    width: 43%;
+    margin-left: 80px;
+    margin-top: 200px;
+
+}
+.boxx {
+    box-shadow:  5px 5px 10px 2px #a48048;
+    padding: 40px; 
+    width:35%;
+    height: 700px;
+    margin-top: 100px;
+
+
+}
+.container{
+    display: flex;
+}
+.p3{
+    font-size: 15px;
+    text-align: left;
+    padding: 20px;
+    margin-top: 20px;
+
+}
+.backgroundcolor{
+    background-color: rgb(255, 245, 231);
+    height: 50%;
+    margin-top: 60px;
+    padding-top: 60px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+.p4{
+   text-align: center;
+   font-size: 40px;
+   color: black;
+   
+}
+.p5{
+    margin-top: 20px;
+}
+.img{
+    margin-left:260px ;
+    margin-top: 100px;
+ }
+ .q{
+    margin-top: 140px;
+    text-align: center;
+    font-size: 35px;
+    padding: 0;
+ }
+ .qq{
+    padding: 0;
+    margin-bottom: 150px;
+ }
+ .box1{
+    width: 25%;
+    height: 150px;
+    background-color: rgb(236, 246, 254);
+    padding: 30px;
+    margin-left:40px;
+ 
+ }
+ .box1 p{
+margin-right: 30px;
+color: rgb(128, 128, 128);
+margin-top: 20px;
+
+ }
+ .box2{
+    width: 25%;
+    height: 150px;
+    background-color: rgb(236, 246, 254);
+    padding: 30px;
+    margin-left: 40px;
+ }
+ .box2 p{
+    margin-right: 30px;
+    color: rgb(128, 128, 128);
+    margin-top: 20px;
+ }
+.box3{
+width: 25%;
+    height: 150px;
+    background-color: rgb(236, 246, 254);
+    padding: 30px;
+    margin-left: 40px;
+}
+.box3 p{
+margin-right: 30px;
+color: rgb(128, 128, 128);
+margin-top: 20px;
+}
+.box4{
+width: 25%;
+    height: 150px;
+    background-color: rgb(236, 246, 254);
+    padding: 30px;
+    margin-left: 40px;
+}
+.box4 p{
+margin-right: 30px;
+color: rgb(128, 128, 128);
+margin-top: 20px;
+}
+.box5{
+width: 25%;
+    height: 150px;
+    background-color: rgb(236, 246, 254);
+    padding: 30px;
+    margin-left: 40px;
+}
+.box5 p{
+margin-right: 30px;
+color: rgb(128, 128, 128);
+margin-top: 20px;
+}
+.box6{
+width: 25%;
+    height: 150px;
+    background-color: rgb(236, 246, 254);
+    padding: 30px;
+    margin-left: 40px;
+}
+.box6 p{
+margin-right: 30px;
+color: rgb(128, 128, 128);
+margin-top: 20px;
+}
+.container2{
+margin-top: 40px;
+display: flex;
+}
+.box1:hover{
+background-color: rgb(90, 52, 218);
+color: aliceblue;
+} .box2:hover{
+background-color: rgb(90, 52, 218); color: aliceblue;
+transition: 0.5s;
+} .box3:hover{
+background-color: rgb(90, 52, 218); color: aliceblue;
+} .box4:hover{
+background-color: rgb(90, 52, 218); color: aliceblue;
+} .box5:hover{
+background-color: rgb(90, 52, 218); color: aliceblue;
+} .box6:hover{
+background-color: rgb(90, 52, 218); color: aliceblue;
+}
+.h22{
+text-align: center;
+margin-top: 100px;
+color: black;
+font-size:30px;
+padding: 0px;
+}
+.p22{
+text-align: center;
+color: rgb(153, 153, 153);
+padding: 0px;
+}
+input[type="text"]{
+width: 500px; 
+    height: 40px;
+    margin-top: 15px;
+    margin-left: 5%;
+    display: inline-block;
+}
+input[type="email"]{
+width: 500px; 
+    height: 40px;
+    margin-top: 15px;
+    margin-left: 5%;
+}
+.input,.textarea{
+display: inline-block;
+}
+.textarea{
+margin-left: 70px;
+margin-top: 70px;
+}
+.submit{
+margin-left: 48%;
+font-size: 15px;
+padding: 15px 25px;
+background-color: rgb(90, 52, 218) ;
+border: none;
+border-radius: 25px;
+color: aliceblue;
+}
